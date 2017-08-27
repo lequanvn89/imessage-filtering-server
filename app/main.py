@@ -16,7 +16,7 @@ def init(loop):
     return app
 
 
-def main():
+def create_app():
     # init logging
     logging.basicConfig(level=logging.DEBUG)
 
